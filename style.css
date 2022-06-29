@@ -1,0 +1,45 @@
+.numbox{
+    width: 300px;
+    height: 100px;
+    border: 2px solid plum;
+    border-radius: 5%;
+    background-color: white;
+}
+
+button{
+    width: 60px;
+    height: 60px;
+    font-size: xx-large;
+    border-color: plum ;
+}
+
+.clear{
+    font-size: medium;
+}
+
+
+
+#row{
+    display:flex;
+    width: 300px;
+    height: 60px;
+    gap:16px;
+    justify-content: space-evenly;
+}
+
+.container{
+    margin-top:64px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    background-color: grey;
+    width: 300px;
+    padding: 16px;
+}
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+}
